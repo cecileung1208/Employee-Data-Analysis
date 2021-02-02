@@ -32,12 +32,12 @@ The purpose of this project is to perofrm Data Modeling, Data Engineering, and D
     
 ## Datasets
 
-[departments.csv](https://github.com/cecileung1208/Employee-Data-Analysis/blob/master/Employee%20Data/departments.csv)
-[dept_emp.csv](https://github.com/cecileung1208/Employee-Data-Analysis/blob/master/Employee%20Data/dept_emp.csv)
-[dept_manager.csv](https://github.com/cecileung1208/Employee-Data-Analysis/blob/master/Employee%20Data/dept_manager.csv)
-[employees.csv](https://github.com/cecileung1208/Employee-Data-Analysis/blob/master/Employee%20Data/employees.csv)  
-[salaries.csv](https://github.com/cecileung1208/Employee-Data-Analysis/blob/master/Employee%20Data/salaries.csv)
-[titles.csv](https://github.com/cecileung1208/Employee-Data-Analysis/blob/master/Employee%20Data/titles.csv) 
+* [departments.csv](https://github.com/cecileung1208/Employee-Data-Analysis/blob/master/Employee%20Data/departments.csv)
+* [dept_emp.csv](https://github.com/cecileung1208/Employee-Data-Analysis/blob/master/Employee%20Data/dept_emp.csv)
+* [dept_manager.csv](https://github.com/cecileung1208/Employee-Data-Analysis/blob/master/Employee%20Data/dept_manager.csv)
+* [employees.csv](https://github.com/cecileung1208/Employee-Data-Analysis/blob/master/Employee%20Data/employees.csv)  
+* [salaries.csv](https://github.com/cecileung1208/Employee-Data-Analysis/blob/master/Employee%20Data/salaries.csv)
+* [titles.csv](https://github.com/cecileung1208/Employee-Data-Analysis/blob/master/Employee%20Data/titles.csv) 
 
     
     
