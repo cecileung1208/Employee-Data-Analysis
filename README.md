@@ -3,8 +3,6 @@
 ## Background
 The purpose of this project is to perofrm Data Modeling, Data Engineering, and Data Analysis by designing tables from the given employee CSV datasets, import the CSV files in the SQL database, and write SQL to extract critical employee information.
 
-The bel
-
 ## Requirements
 
 #### **1.  Data Modeling**
@@ -22,7 +20,7 @@ The bel
     * a.  List the following details of each employee: employee number, last name, first name, sex, and salary.
     * b.  List first name, last name, and hire date for employees who were hired in 1986.
     * c.  List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name.
-    * d.  List the department of each employee with the following information: employee number, last name, first name, and department name.
+    * d.  List the department of each employee with the following information: employee number, last name, first name, and depatment name.
     * e.  List first name, last name, and sex for employees whose first name is "Hercules" and last names begin with "B."
     * f.  List all employees in the Sales department, including their employee number, last name, first name, and department name.
     * g.  List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
@@ -31,6 +29,27 @@ The bel
  * Retrive the following employee's salary information using SQL Alchemy and Matplotlib by:
     * a. Most Common Salary Ranges for Employees
     * b. Average Salary by Job Titles
+    
+## Datasets
+
+[departments.csv](https://github.com/cecileung1208/Employee-Data-Analysis/blob/master/Employee%20Data/departments.csv)
+[dept_emp.csv](https://github.com/cecileung1208/Employee-Data-Analysis/blob/master/Employee%20Data/dept_emp.csv)
+[dept_manager.csv](https://github.com/cecileung1208/Employee-Data-Analysis/blob/master/Employee%20Data/dept_manager.csv)
+[employees.csv](https://github.com/cecileung1208/Employee-Data-Analysis/blob/master/Employee%20Data/employees.csv)  
+[salaries.csv](https://github.com/cecileung1208/Employee-Data-Analysis/blob/master/Employee%20Data/salaries.csv)
+[titles.csv](https://github.com/cecileung1208/Employee-Data-Analysis/blob/master/Employee%20Data/titles.csv) 
+
+    
+    
+## Method
+
+#### **1.  Data Modeling**
+
+* Find the commonalities of the employee .
+Inspect employee data CSV datasets.
+Determine parameters for primary and foreign keys.
+Create table schema in online entity relationship diagram (ERD) software (http://www.quickdatabasediagrams.com/).
+Connect tables with foreign keys to tables with matching primary keys.
 
 ![Image](https://github.com/cecileung1208/SQL-Employee-Data/blob/master/Employee_SQL/Output%20Files/ERD%20-%20Employee%20Database.png)
 
@@ -109,30 +128,3 @@ The below visualizations are used to prove the validity of the employee data:
 2.  [Bar Chart - Average Salary by Title](https://github.com/cecileung1208/SQL-Employee-Data/blob/master/Employee_SQL/Output%20Files/Average%20Salary%20by%20Title.png)
 
 ![Image](https://github.com/cecileung1208/SQL-Employee-Data/blob/master/Employee_SQL/Output%20Files/Average%20Salary%20by%20Title.png)
-
-
-## **5.  Folders and Directories**
-
-The below folders have the following files:
-
-| Folder Name    | File Name |
-| ------------- | ------------- |
-| Employee SQL  | [Table_Schema.sql](https://github.com/cecileung1208/SQL-Employee-Data/blob/master/Employee_SQL/Table_Schema.sql)  |
-|               | [Queries.sql](https://github.com/cecileung1208/SQL-Employee-Data/blob/master/Employee_SQL/Queries.sql)  |
-|               | [Bonus.ipynb](https://github.com/cecileung1208/SQL-Employee-Data/blob/master/Employee_SQL/Bonus.ipynb)  |
-|               | [.gitignore](https://github.com/cecileung1208/SQL-Employee-Data/blob/master/Employee_SQL/.gitignore)  |
-
-Inside the Employee SQL Folder, there are the Ouput and Resources folders that stores the following files:
-
-| Folder Name    | File Name |
-| ------------- | ------------- |
-| Output        | [ERD - Employee Database.png](https://github.com/cecileung1208/SQL-Employee-Data/blob/master/Employee_SQL/Output%20Files/ERD%20-%20Employee%20Database.png)  |
-|               | [Salaries Ranges for Employees.png](https://github.com/cecileung1208/SQL-Employee-Data/blob/master/Employee_SQL/Output%20Files/Salary%20Ranges%20for%20Employees.png)  |
-|               | [Average Salary by Title.png](https://github.com/cecileung1208/SQL-Employee-Data/blob/master/Employee_SQL/Output%20Files/Average%20Salary%20by%20Title.png)  |
-|               | [Relationship.png](https://github.com/cecileung1208/SQL-Employee-Data/blob/master/Employee_SQL/Output%20Files/Relationship.png)  |
-| Resources   | [departments.csv](https://github.com/cecileung1208/SQL-Employee-Data/blob/master/Employee_SQL/Resources/departments.csv)  |
-|             | [dept_emp.csv](https://github.com/cecileung1208/SQL-Employee-Data/blob/master/Employee_SQL/Resources/dept_emp.csv)  |
-|             | [dept_manager.csv](https://github.com/cecileung1208/SQL-Employee-Data/blob/master/Employee_SQL/Resources/dept_manager.csv)  |
-|             | [employees.csv](https://github.com/cecileung1208/SQL-Employee-Data/blob/master/Employee_SQL/Resources/employees.csv)  |
-|             | [salaries.csv](https://github.com/cecileung1208/SQL-Employee-Data/blob/master/Employee_SQL/Resources/salaries.csv)  |
-|             | [titles.csv](https://github.com/cecileung1208/SQL-Employee-Data/blob/master/Employee_SQL/Resources/titles.csv)  |
