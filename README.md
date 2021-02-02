@@ -81,10 +81,12 @@ The purpose of this project is to perofrm Data Modeling, Data Engineering, and D
 
 #### **2.  Data Engineering**
 
-[Table Schema SQL}(https://github.com/cecileung1208/Employee-Data-Analysis/tree/master/Data%20Engineering)
+[Table Schema SQL](https://github.com/cecileung1208/Employee-Data-Analysis/tree/master/Data%20Engineering)
 
-![Script](https://github.com/cecileung1208/Employee-Data-Analysis/blob/master/Data%20Engineering/Table_Schema_Script.png)
+![Image](https://github.com/cecileung1208/Employee-Data-Analysis/blob/master/Data%20Engineering/Table_Schema_Script.png)
 
 Employee Database on PostgreSQL
-![Table Output](https://github.com/cecileung1208/Employee-Data-Analysis/tree/master/Data%20Engineering)
-![Dependent Output](https://github.com/cecileung1208/Employee-Data-Analysis/blob/master/Data%20Engineering/Table_Schema_PostgreSQL_Dependents.png)
+![Image](https://github.com/cecileung1208/Employee-Data-Analysis/tree/master/Data%20Engineering)
+![Image](https://github.com/cecileung1208/Employee-Data-Analysis/blob/master/Data%20Engineering/Table_Schema_PostgreSQL_Dependents.png)
+
+#### **3.  Data Analysis**
