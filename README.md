@@ -1,11 +1,36 @@
-# SQL Challenge - Employee Database: A Mystery in Two Parts
+# Employee Data Analysis
 
-As a data engineer at Pewlett Hackard., management  made a request to research on employee data from the 1980s to 1990s. Six CSV databases were available to conduct the analysis. Since there were numerous rows and the information were scattered across the databases, I must go through the below 3 steps of Data Modeling, Data Engineering and Data Analysis to complete my investigation.
+## Background
+The purpose of this project is to perofrm Data Modeling, Data Engineering, and Data Analysis by designing tables from the given employee CSV datasets, import the CSV files in the SQL database, and write SQL to extract critical employee information.
+
+The bel
+
+## Requirements
+
+#### **1.  Data Modeling**
+
+* Determine the relationship of the given CSV datasets.
+
+#### **2.  Data Engineering**
+
+* Setup an employee database on PostgreSQL with the employee CSV dataset and link it based on the relationship found from Data Modeling.
 
 
-## **1.  Data Modeling**
-
-To conduct any data analysis, a data engineer must know what information the databases contain and how the attributes are related to one another. The perfect way is to map it out in a Entity Relationship Diagram (ERD) in  [http://www.quickdatabasediagrams.com]( http://www.quickdatabasediagrams.com).  See the below image to see how ERD of the Employee Databases.
+#### **3.  Data Analysis**
+ 
+ * Retreive the following employee information using SQL:
+    * a.  List the following details of each employee: employee number, last name, first name, sex, and salary.
+    * b.  List first name, last name, and hire date for employees who were hired in 1986.
+    * c.  List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name.
+    * d.  List the department of each employee with the following information: employee number, last name, first name, and department name.
+    * e.  List first name, last name, and sex for employees whose first name is "Hercules" and last names begin with "B."
+    * f.  List all employees in the Sales department, including their employee number, last name, first name, and department name.
+    * g.  List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
+    * h.  In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
+    
+ * Retrive the following employee's salary information using SQL Alchemy and Matplotlib by:
+    * a. Most Common Salary Ranges for Employees
+    * b. Average Salary by Job Titles
 
 ![Image](https://github.com/cecileung1208/SQL-Employee-Data/blob/master/Employee_SQL/Output%20Files/ERD%20-%20Employee%20Database.png)
 
@@ -18,6 +43,7 @@ To conduct any data analysis, a data engineer must know what information the dat
 
 ![Image](https://github.com/cecileung1208/SQL-Employee-Data/blob/master/Employee_SQL/Output%20Files/Relationship.png)
 
+To conduct any data analysis, a data engineer must know what information the databases contain and how the attributes are related to one another. The perfect way is to map it out in a Entity Relationship Diagram (ERD) in  [http://www.quickdatabasediagrams.com]( http://www.quickdatabasediagrams.com).  See the below image to see how ERD of the Employee Databases.
 
     
 ## **2.  Data Engineering**
