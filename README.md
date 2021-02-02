@@ -44,12 +44,18 @@ The purpose of this project is to perofrm Data Modeling, Data Engineering, and D
 ## Method
 
 #### **1.  Data Modeling**
+* Create an Entity Relationship Diagram (ERD) using the online software ((http://www.quickdatabasediagrams.com/).
+* Inspect the headings to determine comon attributes between each table.
+* Determine the data types for each column.
+* Determine parameters for primary and foreign keys.
+* Link the relationship betwee tables with primary keys.
+* Export to table schema for Data Engineering.
 
-* Find the commonalities of the employee .
-Inspect employee data CSV datasets.
-Determine parameters for primary and foreign keys.
-Create table schema in online entity relationship diagram (ERD) software (http://www.quickdatabasediagrams.com/).
-Connect tables with foreign keys to tables with matching primary keys.
+#### **2. Data Engineering**
+* Create PostgreSQL database for employee data.
+* Import the table schema on the database.
+* Create tables and heading labels as per the ERD.
+* Import employee CSV datasets in the respective tables created.
 
 ![Image](https://github.com/cecileung1208/SQL-Employee-Data/blob/master/Employee_SQL/Output%20Files/ERD%20-%20Employee%20Database.png)
 
@@ -59,10 +65,6 @@ Connect tables with foreign keys to tables with matching primary keys.
 * The key icon represents the primary keys uniquely identifies the records in each table.
 * The line that connects to each table shows how the tables are related through common attirbutes.  
 * The line also shows the type of relationship of the common attributes.  See the below image to determine the type relationship between the tables.
-
-![Image](https://github.com/cecileung1208/SQL-Employee-Data/blob/master/Employee_SQL/Output%20Files/Relationship.png)
-
-To conduct any data analysis, a data engineer must know what information the databases contain and how the attributes are related to one another. The perfect way is to map it out in a Entity Relationship Diagram (ERD) in  [http://www.quickdatabasediagrams.com]( http://www.quickdatabasediagrams.com).  See the below image to see how ERD of the Employee Databases.
 
     
 ## **2.  Data Engineering**
