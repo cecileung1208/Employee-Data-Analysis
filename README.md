@@ -1,5 +1,7 @@
 # Employee Data Analysis
 
+![Image](https://s27389.pcdn.co/wp-content/uploads/employee%20data-1000x440.jpg)
+
 ## Background
 The purpose of this project is to perofrm Data Modeling, Data Engineering, and Data Analysis by designing tables from the given employee CSV datasets, import the CSV files in the SQL database, and write SQL to extract critical employee information.
 
@@ -70,3 +72,19 @@ The purpose of this project is to perofrm Data Modeling, Data Engineering, and D
   * Merge salary_data, title_data, and employee data.
   * Calculate the average salary by title.
   * Plot the averagy salary by title in a Bar Graph.
+  
+## Results
+
+#### **1.  Data Modeling**
+
+![Image](https://github.com/cecileung1208/Employee-Data-Analysis/blob/master/Data%20Modeling/ERD%20-%20Employee%20Database.png)
+
+#### **2.  Data Engineering**
+
+[Table Schema SQL}(https://github.com/cecileung1208/Employee-Data-Analysis/tree/master/Data%20Engineering)
+
+![Script](https://github.com/cecileung1208/Employee-Data-Analysis/blob/master/Data%20Engineering/Table_Schema_Script.png)
+
+Employee Database on PostgreSQL
+![Table Output](https://github.com/cecileung1208/Employee-Data-Analysis/tree/master/Data%20Engineering)
+![Dependent Output](https://github.com/cecileung1208/Employee-Data-Analysis/blob/master/Data%20Engineering/Table_Schema_PostgreSQL_Dependents.png)
