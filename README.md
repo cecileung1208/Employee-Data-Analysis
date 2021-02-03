@@ -72,6 +72,12 @@ The purpose of this project is to perofrm Data Modeling, Data Engineering, and D
   * Merge salary_data, title_data, and employee data.
   * Calculate the average salary by title.
   * Plot the averagy salary by title in a Bar Graph.
+ 
+## Scripts
+[Table Schema SQL](https://github.com/cecileung1208/Employee-Data-Analysis/tree/master/Data%20Engineering)
+[SQL Queries](https://github.com/cecileung1208/Employee-Data-Analysis/blob/master/Data%20Analysis/Employee%20SQL/Queries.sql)
+[Salary Analysis](https://github.com/cecileung1208/Employee-Data-Analysis/blob/master/Data%20Analysis/Salary%20Analysis/Salary_Analysis.ipynb)
+ 
   
 ## Results
 
@@ -81,8 +87,6 @@ The purpose of this project is to perofrm Data Modeling, Data Engineering, and D
 
 #### **2.  Data Engineering**
 
-[Table Schema SQL](https://github.com/cecileung1208/Employee-Data-Analysis/tree/master/Data%20Engineering)
-
 ![Image](https://github.com/cecileung1208/Employee-Data-Analysis/blob/master/Data%20Engineering/Table_Schema_Script.png)
 
 Employee Database on PostgreSQL
@@ -90,3 +94,24 @@ Employee Database on PostgreSQL
 ![Image](https://github.com/cecileung1208/Employee-Data-Analysis/blob/master/Data%20Engineering/Table_Schema_PostgreSQL_Dependents.png)
 
 #### **3.  Data Analysis**
+
+The Employee SQL provided the following information about the company:
+    * a.  There are 300,024 employees in the company.
+    * b.  There are 36,150 employees hired during 1986.
+    * c.  There are 24 managers across 9 departments.
+    * d.  The companies have almost 65% of them employees, in the Development, Production and Sales department.
+    * e.  There are 20 employees where their first name is "Hercules" and their last name begins with "B".
+    * f.  There are 52,245 employees in the Sales Department.
+    * g.  There are 137,952 employees in the Sales and Development Departments.
+    * h.  Many employees share the same last name with 226 employees having the last name "Baba".
+ CSV Outputs can be retrieved in this [folder](https://github.com/cecileung1208/Employee-Data-Analysis/tree/master/Data%20Analysis/Employee%20SQL).
+    
+The Salary Analysis provided the following information about the company:
+    * The average salary for the employees is $52,970.73
+    
+    ![Image](https://github.com/cecileung1208/Employee-Data-Analysis/blob/master/Data%20Analysis/Salary%20Analysis/Salary%20Ranges%20for%20Employees.png)
+    
+    * The staff and the senior staff have the highest salaries in the company.
+    
+    ![Image](https://github.com/cecileung1208/Employee-Data-Analysis/blob/master/Data%20Analysis/Salary%20Analysis/Average%20Salary%20by%20Title.png)
+    
