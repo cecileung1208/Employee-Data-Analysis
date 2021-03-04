@@ -3,7 +3,7 @@
 ![Image](https://s27389.pcdn.co/wp-content/uploads/employee%20data-1000x440.jpg)
 
 ## Background
-The purpose of this project is to perofrm Data Modeling, Data Engineering, and Data Analysis by designing tables from the given employee CSV datasets, import the CSV files in the SQL database, and write SQL to extract critical employee information.
+The purpose of this project is to perform Data Modeling, Data Engineering, and Data Analysis by designing tables from the given employee CSV datasets, import the CSV files in the SQL database, and write SQL to extract critical employee information.
 
 ## Requirements
 
