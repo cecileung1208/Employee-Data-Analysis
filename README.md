@@ -74,9 +74,9 @@ The purpose of this project is to perform Data Modeling, Data Engineering, and D
   * Plot the averagy salary by title in a Bar Graph.
  
 ## Scripts
-[Table Schema SQL](https://github.com/cecileung1208/Employee-Data-Analysis/tree/master/Data%20Engineering)<br>
-[SQL Queries](https://github.com/cecileung1208/Employee-Data-Analysis/blob/master/Data%20Analysis/Employee%20SQL/Queries.sql)<br>
-[Salary Analysis](https://github.com/cecileung1208/Employee-Data-Analysis/blob/master/Data%20Analysis/Salary%20Analysis/Salary_Analysis.ipynb)<br>
+* [Table Schema SQL](https://github.com/cecileung1208/Employee-Data-Analysis/tree/master/Data%20Engineering)
+* [SQL Queries](https://github.com/cecileung1208/Employee-Data-Analysis/blob/master/Data%20Analysis/Employee%20SQL/Queries.sql)
+* [Salary Analysis](https://github.com/cecileung1208/Employee-Data-Analysis/blob/master/Data%20Analysis/Salary%20Analysis/Salary_Analysis.ipynb)
  
   
 ## Results
